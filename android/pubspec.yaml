@@ -1,0 +1,60 @@
+name: ramadan_fit
+description: Ramadan Fitness & Health Tracker App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  get: ^4.6.6
+
+  # Dependency Injection
+  get_it: ^8.0.2
+  injectable: ^2.5.0
+
+  # Routing
+  go_router: ^14.6.2
+
+  # Fonts & UI
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+  percent_indicator: ^4.2.3
+  fl_chart: ^0.69.2
+  gap: ^3.0.1
+  iconsax: ^0.0.8
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+  flutter_timezone: ^3.0.1
+
+  # Storage
+  shared_preferences: ^2.3.4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Background
+  workmanager: ^0.5.2
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  rxdart: ^0.28.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
